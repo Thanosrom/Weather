@@ -1,6 +1,4 @@
-# Weather
-Weather Widget 
-
+# Weather Widget  
 
 Installation Proccess : 
 
