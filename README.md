@@ -16,8 +16,9 @@ Router Package
 
 Chart Package with an extra plugin for labeling
 
-**npm i react-chartjs-2
-npm i chartjs-plugin-datalabels**
+**npm i react-chartjs-2**
+
+**npm i chartjs-plugin-datalabels**
 
 3)We pull the data from the Github 
 
