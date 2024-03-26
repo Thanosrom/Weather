@@ -1,0 +1,157 @@
+.cards{
+    width: 22vw;
+    height: 12vh;
+    display:flex;
+    flex-direction: column;
+    align-items:left;
+    justify-content: center;
+    border: 0.15rem solid #F4F4F4;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    overflow: hidden; 
+}
+
+.weatherTemperature{
+    margin: 0;
+    text-align: left; 
+    overflow: hidden;
+    color : #040404;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.weatherDescription {
+    margin: 0;
+    text-align: left; 
+    overflow: hidden;
+    color : #A2A2A2;
+    font-size: 1.2em;
+}
+
+.unit {
+    font-size: 1em;
+}
+.smallerUnit {
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 280px) {
+    .cards{
+        height: 6vh;
+        width: 20vw;
+        margin: 0.5em;
+        padding: 0.3em;
+        border-radius: 0.5rem;
+    }
+    .weatherTemperature{
+        font-size: 0.7em;
+    }
+    .weatherDescription{
+        font-size: 0.7em;
+    }
+    .unit {
+        font-size: 0.5em;
+    }
+    .smallerUnit {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 419px) {
+    .cards{
+        height: 6vh;
+        width: 20vw;
+        margin: 0.5em;
+        padding: 0.3em;
+        border-radius: 0.5rem;
+    }
+    .weatherTemperature{
+        font-size: 0.8em;
+    }
+    .weatherDescription{
+        font-size: 0.8em;
+    }
+    .unit {
+        font-size: 0.8em;
+    }
+    .smallerUnit {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 799px) {
+    .cards{
+        height: 9vh;
+        width: 23vw;
+        margin: 0.5em;
+        padding: 0.3em;
+        border-radius: 1rem;
+    }
+    .weatherTemperature{
+        font-size: 1em;
+    }
+    .weatherDescription{
+        font-size: 1em;
+    }
+    .unit {
+        font-size: 1.1em;
+    }
+    .smallerUnit {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+    .cards{
+        height: 12vh;
+        width: 23vw;
+        margin: 0.5em;
+        padding: 0.3em;
+        border-radius: 1rem;
+    }
+    .weatherTemperature{
+        font-size: 1em;
+    }
+    .weatherDescription{
+        font-size: 1em;
+    }
+    .unit {
+        font-size: 1.1em;
+    }
+    .smallerUnit {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2400px) {
+    .cards{
+        height: 11vh;
+        width: 25vw;
+        margin: 0.5em;
+        padding: 0.3em;
+        border-radius: 1rem;
+    }
+    .weatherTemperature{
+        font-size: 2em;
+    }
+    .weatherDescription{
+        font-size: 2em;
+    }
+    .unit {
+        font-size: 1em;
+    }
+    .smallerUnit {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-height: 458px) {
+    .cards{
+        height: 20vh;
+        width: 19vw;
+        margin: 0.5em;
+        padding: 0.3em;
+        border-radius: 1rem;
+    }
+}

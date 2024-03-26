@@ -1,0 +1,232 @@
+html ,body{
+    overflow-x:hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Container */
+.HomeDiv{
+    width: 100vw;
+    height:auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2em;
+    margin: 0;
+}
+
+/* Button Container */
+.ButtonsDivs{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.smallButtons{
+    font-size: 1em;
+    background-color: #F5F5F5;
+    color: #676767;
+    margin: 0.5em;
+    transition: background-color 0.3s ease;
+    outline: none !important;
+}
+.smallButtons:hover {
+    background-color: rgba(0, 128, 0, 0.1);
+    border : 1.5px solid rgba(0, 128, 0, 0.5) !important;
+    color: rgba(0, 128, 0, 0.5);
+}
+
+/* Weather Forecast Container */
+.weatherDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+.weatherInternalDiv_1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.weatherInternalDiv_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weatherTemperature_P1{
+    margin: 0;
+    padding: 0; 
+    text-align: left; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    color : #040404;
+    font-size: 2em;
+    font-weight: bold;
+}
+.weatherDescription_P1{
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0; 
+    text-align: left; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    color : #A2A2A2;
+}
+
+/* Small Line */
+.LineSmall {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    border-bottom: 0.2rem solid #F4F4F4;
+}
+
+/* Cards Container */
+.AllCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+.divCards_1{
+    display: flex;
+    flex-direction: row;
+}
+.divCards_2{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Big Line */
+.LineBigger {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1.8rem solid #F4F4F4;
+}
+
+/* Chart Details */
+.ChartTitles_Div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+h4{
+    margin:0;
+    color:#A2A2A2;
+    border-bottom: 3px solid #E4F0D8;
+}
+
+/* Chart */
+.LineChart{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    width: 90vw;
+    height: 30%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 550px) {
+    .smallButtons{
+        width: 12vw;
+        height: 4vh;
+        font-size: 0.4em;
+        overflow: hidden;
+        border-radius: 1em;
+    }
+    .weatherTemperature_P1{
+        font-size: 1em;
+    }
+    .weatherDescription_P1{
+        font-size: 0.7em;
+    }
+    h4{
+        font-size: 0.8em;
+     }
+     h2{
+        font-size:1em;
+     }
+}
+
+@media screen and (min-width: 551px) and (max-width: 799px) {
+    .smallButtons{
+        width: 13vw;
+        height:auto;
+        font-size: 0.6em;
+        overflow: hidden;
+    }
+    .weatherTemperature_P1{
+        font-size: 1.5em;
+    }
+    .weatherDescription_P1{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .smallButtons{
+        width: 15vw;
+        height:auto;
+        font-size: 1em;
+        overflow: hidden;
+    }
+    .weatherTemperature_P1{
+        font-size: 2em;
+    }
+    .weatherDescription_P1{
+        font-size: 2em;
+    }
+    h4{
+       font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2400px) {
+    .smallButtons{
+        width: 12vw;
+        height:auto;
+        font-size: 1.5em;
+        overflow: hidden;
+    }
+    .weatherTemperature_P1{
+        font-size: 2em;
+    }
+    .weatherDescription_P1{
+        font-size: 2em;
+    }
+    h4{
+       font-size: 2em;
+    }
+    h2{
+        font-size: 2em;
+    }
+}
