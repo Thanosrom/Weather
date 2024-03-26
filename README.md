@@ -12,7 +12,7 @@ Installation Proccess :
 
 Router Package
 
-**npm i react-router**
+**npm i react-router-dom**
 
 Chart Package with an extra plugin for labeling
 
