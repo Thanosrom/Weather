@@ -8,6 +8,8 @@ Installation Proccess :
 
 **npm create vite@latest** WeatherApp 
 
+Select React App,with js compiler,no template
+
 2)We install two specific packages with npm 
 
 Router Package
