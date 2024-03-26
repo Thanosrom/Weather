@@ -6,9 +6,9 @@ Installation Proccess :
 
 1)First we create a new react-vite app (vite is a faster way to create react apps)
 
-**npm create vite@latest** WeatherApp 
-
-Select React App,with js compiler,no template
+  **npm create vite@latest** WeatherApp 
+  
+  Select React App,with js compiler,no template
 
 
 
@@ -16,13 +16,13 @@ Select React App,with js compiler,no template
 
 Router Package
 
-**npm i react-router-dom**
-
-Chart Package with an extra plugin for labeling
-
-**npm i react-chartjs-2**
-
-**npm i chartjs-plugin-datalabels**
+  **npm i react-router-dom**
+  
+  Chart Package with an extra plugin for labeling
+  
+  **npm i react-chartjs-2**
+  
+  **npm i chartjs-plugin-datalabels**
 
 
 
@@ -32,4 +32,4 @@ Chart Package with an extra plugin for labeling
 
 4)We run the local website using the command
 
-**npm run dev** 
+  **npm run dev** 
