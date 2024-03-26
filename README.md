@@ -5,6 +5,7 @@ Weather Widget
 Installation Proccess : 
 
 1)First we create a new react-vite app (vite is a faster way to create react apps)
+
 **npm create vite@latest** WeatherApp 
 
 2)We install two specific packages with npm 
