@@ -10,6 +10,8 @@ Installation Proccess :
 
 Select React App,with js compiler,no template
 
+
+
 2)We install two specific packages with npm 
 
 Router Package
@@ -22,7 +24,11 @@ Chart Package with an extra plugin for labeling
 
 **npm i chartjs-plugin-datalabels**
 
+
+
 3)We pull the data from the Github 
+
+
 
 4)We run the local website using the command
 
