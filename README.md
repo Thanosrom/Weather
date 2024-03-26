@@ -9,10 +9,12 @@ Installation Proccess :
 
 2)We install two specific packages with npm 
 
-Router Package 
+Router Package
+
 **npm i react-router**
 
-Chart Package with an extra plugin for labeling 
+Chart Package with an extra plugin for labeling
+
 **npm i react-chartjs-2
 npm i chartjs-plugin-datalabels**
 
